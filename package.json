@@ -2,7 +2,7 @@
     "name": "dark-flow-vscode",
     "displayName": "Dark Flow",
     "description": "A dark blue theme for VS Code",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "maurobalades",
     "icon": "images/logo.png",
     "author": {
@@ -39,7 +39,7 @@
         {
           "label": "dark-flow",
           "uiTheme": "vs-dark",
-          "path": "./themes/theme.json"
+          "path": "./theme/dark-flow-theme.json"
         }
       ]
     },
