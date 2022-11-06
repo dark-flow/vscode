@@ -1,0 +1,55 @@
+{
+    "name": "dark-flow-vscode",
+    "displayName": "Dark Flow",
+    "description": "A dark blue theme for VS Code",
+    "version": "1.0.0",
+    "publisher": "maurobalades",
+    "icon": "images/logo.png",
+    "author": {
+      "name": "Mauro Baladés",
+      "email": "mauro.balades@tutanota.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dark-flow/vscode"
+    },
+    "bugs": {
+      "url": "https://github.com/dark-flow/vscode/issues",
+      "email": "mauro.balades@tutanota.com"
+    },
+    "homepage": "https://github.com/dark-flow/vscode/blob/main/README.md",
+    "galleryBanner": {
+      "color": "#171c28",
+      "theme": "dark"
+    },
+    "engines": {
+      "vscode": "^1.18.0"
+    },
+    "categories": [
+      "Themes"
+    ],
+    "keywords": [
+      "Themes",
+      "Dark Theme",
+      "color-theme",
+      "dark flow"
+    ],
+    "contributes": {
+      "themes": [
+        {
+          "label": "dark-flow",
+          "uiTheme": "vs-dark",
+          "path": "./themes/theme.json"
+        }
+      ]
+    },
+    "devDependencies": {
+      "@upstatement/eslint-config": "^0.4.2",
+      "@upstatement/prettier-config": "^0.3.0",
+      "babel-eslint": "^10.0.3",
+      "eslint": "^6.3.0",
+      "eslint-config-prettier": "^6.2.0",
+      "prettier": "^1.18.2",
+      "vsce": "^1.66.0"
+    }
+}
